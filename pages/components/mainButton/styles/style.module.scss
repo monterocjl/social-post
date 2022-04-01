@@ -1,0 +1,18 @@
+@import '../../../../styles/colors';
+
+.container {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    margin: 25px;
+    z-index: 5;
+
+    a {
+        padding: 12px 22px;
+        border-radius: 50px;
+        border: none;
+        font-size: 19px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}

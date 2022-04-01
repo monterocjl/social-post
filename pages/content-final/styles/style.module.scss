@@ -1,0 +1,88 @@
+@import '../../../styles/colors';
+
+.container {
+    width: 540px;
+    height: 960px;
+    position: relative;
+    background-color: $color-4;
+
+    .title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+        padding-top: 68px;
+        margin: 0 40px 50px 40px;
+        color: $color-1;
+    }
+
+    .topicContainer {
+        display: flex;
+        flex-direction: row;
+        margin: 0 18px;
+        grid-gap: 30px;
+        gap: 26px;
+        flex-wrap: wrap;
+        justify-content: center;
+        z-index: 22;
+        position: absolute;
+
+        .topic {
+            background: none;
+            padding: 10px 13px 10px 9px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 700;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            // box-shadow: 0px 3px 14px rgb(0 0 0 / 15%);
+            width: 100%;
+            gap: 15px;
+
+        }
+    }
+
+}
+
+// .topic:nth-child(1n) {
+//     border-left: 11px solid $color-1;
+// }
+// .topic:nth-child(2n) {
+//     border-left: 11px solid $color-2;
+// }
+// .topic:nth-child(3n) {
+//     border-left: 11px solid $color-3;
+// }
+// .topic:nth-child(4n) {
+//     border-left: 11px solid $color-4;
+// }
+// .topic:nth-child(5n) {
+//     border-left: 11px solid $color-5;
+// }
+
+.icons {
+    display: flex;
+    grid-gap: 20px;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+    div {
+        background: $color-2;
+        padding: 10px;
+        border-radius: 50px;
+        width: 55px;
+        height: 55px;
+        box-shadow: 0px 3px 14px rgb(0 0 0 / 15%);
+        cursor: pointer;
+
+        &:hover {
+            background: $color-5;
+        }
+
+        img {
+            filter: invert(1);
+        }
+    }
+}

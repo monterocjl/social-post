@@ -1,0 +1,25 @@
+@import '../../../../styles/colors';
+
+.topicContainer {
+    background: $color-1;
+    min-height: 325px;
+    width: 500px;
+    z-index: 40;
+    position: relative;
+    border-radius: 17px;
+    display: flex;
+    margin: 158px auto 0px auto;
+    padding: 14px 20px;
+
+    h1 {
+        margin: 0;
+        color: white;
+        font-weight: 700;
+        font-size: 41px;
+        padding-right: 50px;
+        text-decoration: underline 8px $color-3;
+        line-height: 53px;
+        text-underline-position: under;
+        height: fit-content;
+    }
+}

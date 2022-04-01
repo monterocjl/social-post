@@ -1,0 +1,28 @@
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    position: relative;
+    z-index: 30;
+
+    span {
+        span {
+            width: 500px !important;
+            height: 220px !important;
+        }
+    }
+
+    .image {
+        border-radius: 17px;
+    }
+
+    p {
+        position: absolute;
+        color: white;
+        opacity: 0.5;
+        right: 33px;
+        margin-top: 11px;
+        font-size: 15px;
+    }
+}
+

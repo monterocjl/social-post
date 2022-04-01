@@ -1,0 +1,20 @@
+@import '../../../../styles/colors';
+
+.avatarContainer {
+    width: fit-content;
+    border: 8px solid $color-4;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    z-index: 40;
+
+    span {
+        width: 113px !important;
+        height: 113px !important;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+
+}
